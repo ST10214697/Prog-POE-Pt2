@@ -1,0 +1,4 @@
+foreach (Ingredient ingredient in ingredients)
+            {
+                Console.WriteLine("- {0} {1} {2}", ingredient.quantities, ingredient.units, ingredient.name);
+            }
