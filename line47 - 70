@@ -1,0 +1,24 @@
+for (int i = 0; i < numIngredients; i++)
+            {
+                Console.WriteLine($"Enter name for ingredient #{i + 1}:");
+
+                Ingredient ingredient = new Ingredient();
+
+                Console.Write("Name: ");
+                ingredient.name = Console.ReadLine();
+
+                Console.Write("Quantity: ");
+                ingredient.quantities = double.Parse(Console.ReadLine());
+
+
+                Console.Write("Unit of Measurement: ");
+                ingredient.units = Console.ReadLine();
+
+                Console.Write("Calories: ");
+                ingredient.calories = Convert.ToInt32(Console.ReadLine());
+
+                Console.Write("Food Group: ");
+                ingredient.foodGroup = Console.ReadLine();
+
+                ingredients.Add(ingredient);
+            }
