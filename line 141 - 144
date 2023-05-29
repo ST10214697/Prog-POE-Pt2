@@ -1,0 +1,4 @@
+foreach(var objIng in ingredients)
+            {
+                objIng.quantities *= factor;
+            }
