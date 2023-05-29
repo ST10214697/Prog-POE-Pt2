@@ -1,0 +1,1 @@
+Console.Write("Food Group: \n'Starch' \n'Protein' \n'Dairy' \n'Fruits & Vegetables' \n'Fats & Sugar'): \n");
